@@ -1,0 +1,56 @@
+# PROJECT-PROMPT-WITH-GIT.gitignore
+# Template: copy or rename to .gitignore in new projects
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment / secrets
+.env
+*.env.*
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# Packaging / build
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Tools / caches
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# Python version manager
+.python-version
+
+# Generic cache
+.cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node (optional, if present)
+node_modules/
